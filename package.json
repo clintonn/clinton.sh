@@ -1,0 +1,15 @@
+{
+  "name": "clinton.sh",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:clintonn/clinton.sh.git",
+  "author": "Clinton Nguyen <clinton.ngyn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
