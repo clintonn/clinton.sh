@@ -157,6 +157,17 @@ hr {
   background: #0a0a0b;
 }
 
+.bg {
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url('/assets/images/jacquard-loom.jpg') no-repeat 85% 90%/35%;
+  width: 100%;
+  height: 100vh;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1024px) {
@@ -169,5 +180,9 @@ hr {
   }
   li {
     display: inline;
+  }
+  .bg {
+    background-size: 100%, 16%;
+    background-position: center, 95% 90%;
   }
 }
