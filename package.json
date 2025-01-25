@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html && yarn run mv-well-known",
+    "mv-well-known": "mv ./.well-known ./dist/",
     "cpfb": "mkdir -p ./dist/assets/images && cp ./assets/images/inverse-jacquard.jpg ./dist/assets/images/inverse-jacquard.jpg"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
